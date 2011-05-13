@@ -1,0 +1,13 @@
+<% if (Object.keys(post.comments).length) { %>
+  <h3>Comments</h3>
+  <ul>
+    <% for (var i in post.comments) { %>
+    <li>
+      <a href="/posts/<%= post.id %>/comments/<%= post.comments[i].id %>">#</a>
+      <%= post.comments[i].content %> <br />  
+    </li>
+    <% } %>
+  </ul>
+<% } else { %>
+  <h3>No Comments</h3>
+<% } %>

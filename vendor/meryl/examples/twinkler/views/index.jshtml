@@ -1,0 +1,15 @@
+<%= render('header') %>
+
+<ul id="twinkles">
+<% for(var i in twinkles) { %>
+  <li>
+    <%= render('wink', {wink: twinkles[i] }) %>
+  </li>
+<% } %>
+</ul>
+
+<form action="/newwink" method="post">
+  <textarea name="wink" rows="3" colums="20" max-length="140" wrap="soft"></textarea>
+  <input type="submit" value="wink" />
+</form>
+<%= render('footer') %>

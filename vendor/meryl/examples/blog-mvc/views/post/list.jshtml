@@ -1,0 +1,19 @@
+<% for (var i in posts) { %>
+  <% var post = posts[i]; %>
+  <article>
+    <h2>
+      <a href="/posts/<%= posts[i].id %>">
+          <%= post.title %>
+      </a>
+    </h2>
+    <section>
+      <%= post.content %>
+    </section>
+    <section>
+      <blockquote>
+        Comments (<%= Object.keys(post.comments).length %>)
+      </blockquote>
+    </section>
+  </article>
+<% } %>
+

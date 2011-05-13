@@ -1,0 +1,46 @@
+body {
+  background-color: #f0f0f0;
+  font-family: 'helvetica';
+  font-size: 12px;
+}
+
+#wrap {
+  width: 75%;
+  margin: 10px auto;
+  background-color: #ffffff;
+  padding: 10px;
+  border: solid 1px #ccc;
+}
+
+header {
+  background-color: #ccf0f0;
+  border-bottom: solid 1px #cccccc;
+  padding:10px;
+}
+
+footer {
+  background-color: #ccf0f0;
+  border-top: solid 1px #cccccc;
+  padding:10px;
+}
+
+#content {
+  padding:10px;
+}
+
+nav ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+nav ul li {
+  list-style: none;
+  float:left;
+  margin-right: 5px;
+  pading 5px;
+}
+
+hr {
+  clear: both;
+  visibility: hidden;
+}

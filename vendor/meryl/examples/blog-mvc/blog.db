@@ -1,0 +1,8 @@
+{"key":"post_1","val":{"id":"post_1","title":"post 1","content":"This is my first post"}}
+{"key":"post_2","val":{"id":"post_2","title":"post 2","content":"This is my second post"}}
+{"key":"post_3","val":{"id":"post_3","title":"post 3","content":"This is my third post"}}
+{"key":"comment_1","val":{"id":"comment_1","postid":"post_1","content":"This is my first comment"}}
+{"key":"comment_2","val":{"id":"comment_2","postid":"post_1","content":"This is my second comment"}}
+{"key":"comment_3","val":{"id":"comment_3","postid":"post_1","content":"This is my third comment"}}
+{"key":"posts","val":["post_1","post_2","post_3"]}
+{"key":"comments","val":["comment_1","comment_2","comment_3"]}

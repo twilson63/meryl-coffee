@@ -1,0 +1,19 @@
+<html>
+  <head>
+  </head>
+  <body>
+    <h1>Welcome to (fab) style Meryl</h1>
+    <img src="/fab.png" />
+    
+    
+    <% if (request.params.postid) { %>
+      <p>You're reading post # <%= request.params.postid %></p>
+    <% } %>
+    
+    <% if (request.params.commentid) { %>
+      <p>You're reading comment # <%= request.params.commentid %></p>
+    <% } %>
+    
+  </body>
+</html>
+

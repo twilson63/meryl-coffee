@@ -13,6 +13,8 @@ see [nodejs](http://nodejs.com)
 npm install coffee-script
 npm install connect
 npm install meryl
+npm install mime
+npm install qs
 npm install coffeekup
 
 git clone http://github.com/twilson63/meryl-coffee.git

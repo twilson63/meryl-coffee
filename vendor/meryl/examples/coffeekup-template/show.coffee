@@ -1,0 +1,2 @@
+p ->
+  span -> @person

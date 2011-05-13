@@ -1,0 +1,18 @@
+{>page/}
+{<title}<title>Main Page</title>{/title}
+{<content}
+   <div>
+      <h2>News and Events</h2>
+      {#posts}
+      <article>
+         <header>
+            <h3>{title}</h3>
+         </header>
+         <time datetime="{date}" class="byline">{date}</time>
+         <section>
+            {content}               
+         </section>
+      </article>
+      {/posts}
+   </div>   
+   {/content}

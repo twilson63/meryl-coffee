@@ -1,0 +1,6 @@
+<ul>
+  <% for name in @people: %>
+    <%- @render('partial', {name: name}) %>
+  <% end %>
+</ul>
+

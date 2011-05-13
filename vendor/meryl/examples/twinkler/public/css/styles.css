@@ -1,0 +1,27 @@
+body {
+  font-family: verdana;
+  font-size: 12px;
+}
+#header {
+  margin: 5px;
+  padding: 5px;
+}
+#footer {
+  background-color:#ccc;
+  margin: 5px;
+  padding: 5px;
+}
+#main {
+  margin: 5px;
+  padding: 5px;
+}
+#twinkles {
+  list-style: none;
+  margin:5px;
+  padding: 5px;
+}
+.wink {
+  margin:5px;
+  padding: 5px;
+  border-bottom: dotted 1px #ccc;
+}

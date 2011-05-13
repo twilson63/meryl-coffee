@@ -1,0 +1,16 @@
+<article>
+  <section>
+    <h2><%= post.title %></h2>
+    <section>
+      <%= post.content %>
+    </section>
+    <section>
+      <%= render('comment/list', {post: post, comments: post.comments}) %>
+    </section>
+    <section>
+      <a href="/posts"> << back to posts</a>
+    </section>
+  <section>
+</article>
+
+

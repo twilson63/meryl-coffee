@@ -1,0 +1,10 @@
+<article>
+  <h2>Comment (<%= request.params.commentid %>)</h2>
+  <section>
+    <%= post.comments[request.params.commentid].content %>
+  </section>
+  <section>
+    <a href="/posts"> << back to posts</a>
+  </section>
+</article>
+

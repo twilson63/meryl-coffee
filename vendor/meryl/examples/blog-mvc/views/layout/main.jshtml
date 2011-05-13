@@ -1,0 +1,24 @@
+<html>
+  <head>
+    <link href="/blog.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <header>
+      <h1>Demo Blog</h1>    
+      <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/about">About</a></li>
+        </ul>
+      </nav>
+      <hr />
+    </header>
+    <section id="content">
+      <%= render(content, context) %>
+    </section>
+    <footer>
+      <small>Powered by nodejs, connect, dirty and meryl</small>
+    </footer>
+  </body>
+</html>
+
