@@ -1,7 +1,0 @@
-<html>
-  <head>
-  </head>
-  <body>
-    <%= render(content, context) %>
-  </body>
-</html>

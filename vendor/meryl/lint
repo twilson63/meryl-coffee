@@ -1,1 +1,0 @@
-nodelint --config lint.cfg index.js lib/*.js test/*js $@
