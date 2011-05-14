@@ -5,8 +5,7 @@ coffeekup = require 'coffeekup'
 meryl
   .p(connect.static('public'))
   .get '/', (req, resp) ->
-    resp.render 'layout',
-      content: 'index'
+    resp.render 'layout', { content: 'index', context: { title: 'Meryl CoffeeScript with CoffeeKup' } }
 
   .options = {
     templateExt: '.coffee'
