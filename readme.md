@@ -54,6 +54,7 @@ h1 'About Page'
 
 These technologies really work well together to create awesome web apps.
 
+
 ## Feedback
 
 Help me keep this template up to date, either send a pull request or add an issue.
@@ -62,6 +63,15 @@ Help me keep this template up to date, either send a pull request or add an issu
 ## Contribute
 
 Feel free to send a pull request, if it makes sense, I will add it.
+
+
+## Also Check Out
+
+[express-coffee](http://github.com/twilson63/express-coffee)
+
+## License
+
+See LICENSE
 
 
 
